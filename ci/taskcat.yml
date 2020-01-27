@@ -1,5 +1,5 @@
 global:
-  owner: tonynv@amazon.com
+  owner: owner@amazon.com
   qsname: qs-workshop
   regions:
     - ap-southeast-1
@@ -12,7 +12,7 @@ global:
   reporting: true
 tests:
   lab-master-vpc:
-    parameter_input: workshop_input.json 
+    parameter_input: input.json 
     template_file: master.template.yaml
     regions:
-      - us-west-2
+      - us-east-1
